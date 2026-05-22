@@ -27,7 +27,6 @@ A mini file explorer web application built for **Webbly Media (Sweden)** as a fr
 | [TypeScript](https://www.typescriptlang.org) | Type safety throughout |
 | [Tailwind CSS](https://tailwindcss.com) | Utility-first styling |
 | [Shadcn ui](https://ui.shadcn.com) | Accessible Dialog, AlertDialog, ContextMenu, DropdownMenu primitives |
-| [Lucide React](https://lucide.dev) | Icons |
 
 
 No backend required — all data lives in the browser via `localStorage`.
