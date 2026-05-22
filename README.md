@@ -44,7 +44,7 @@ No backend required — all data lives in the browser via `localStorage`.
 ### Installation
 
 ```bash
-git clone  https://github.com/TarekNexus/Webbly-Media 
+git clone  https://github.com/TarekNexus/webbly-wedia
 cd Webbly-Media
 npm install
 ```
@@ -55,7 +55,7 @@ npm install
 npm run dev
 ```
 
-Open [https://webbly-media.vercel.app](https://webbly-media.vercel.app) in your browser.
+Open [https://webbly-wedia.vercel.app](https://webbly-wedia.vercel.app) in your browser.
 
 ### Production Build
 
