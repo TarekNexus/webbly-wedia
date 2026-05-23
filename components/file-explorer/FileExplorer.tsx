@@ -100,6 +100,10 @@ export function FileExplorer() {
               setSidebarOpen(false);
             }}
             onToggle={fs.toggleFolder}
+            onOpenFile={(id) => {
+              fs.openTextFile(id);
+              setSidebarOpen(false);
+            }}
             onCreate={(parentId) => {
               handleCreate(parentId);
               setSidebarOpen(false);

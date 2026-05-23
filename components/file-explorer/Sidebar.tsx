@@ -9,6 +9,7 @@ interface SidebarProps {
   expanded: Set<string>;
   onNavigate: (id: string) => void;
   onToggle: (id: string) => void;
+  onOpenFile: (fileId: string) => void;
   onCreate: (parentId: string) => void;
   onRename: (nodeId: string, currentName: string, nodeType: 'folder' | 'text') => void;
   onDelete: (nodeId: string, nodeName: string) => void;
@@ -20,6 +21,7 @@ export function Sidebar({
   expanded,
   onNavigate,
   onToggle,
+  onOpenFile,
   onCreate,
   onRename,
   onDelete,
@@ -36,6 +38,7 @@ export function Sidebar({
         expanded={expanded}
         onNavigate={onNavigate}
         onToggle={onToggle}
+        onOpenFile={onOpenFile}
         onCreate={onCreate}
         onRename={onRename}
         onDelete={onDelete}
